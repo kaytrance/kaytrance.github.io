@@ -2,7 +2,7 @@
 
 wget https://github.com/kaytrance/DiscoverMeteor_Ru/archive/master.zip &&
 
-unzip master.zip &&
+unzip master.zip
 
 # rm master.zip
 # rm .gitignore
