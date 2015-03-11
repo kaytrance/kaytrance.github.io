@@ -9,7 +9,7 @@ rm archive.tar.gz &&
 rm .gitignore &&
 
 npm install &&
-bower install &&
+bower install --config.interactive=false &&
 gulp init &&
 
 echo "All done!"
