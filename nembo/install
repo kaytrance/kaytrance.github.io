@@ -8,8 +8,8 @@ tar -zxvf archive.tar.gz --strip-components=1 &&
 rm archive.tar.gz &&
 rm .gitignore &&
 
-npm init &&
-bower init &&
+npm install &&
+bower install &&
 gulp init &&
 
 echo "All done!"
