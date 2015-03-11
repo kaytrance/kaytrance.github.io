@@ -1,8 +1,15 @@
 #!/bin/sh
 
-wget https://github.com/kaytrance/DiscoverMeteor_Ru/archive/master.zip &&
 
-unzip master.zip
+wget -O archive.tar.gz https://github.com/kaytrance/nembo/archive/1.0.0.tar.gz &&
 
-# rm master.zip
-# rm .gitignore
+tar -zxvf --strip-components=1 archive.tar.gz &&
+
+rm archive.tar.gz &&
+rm .gitignore &&
+
+npm init &&
+bower init &&
+gulp init &&
+
+echo "All done!"
